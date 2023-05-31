@@ -3,7 +3,7 @@ from django.shortcuts import render
 def home_page(request):
     context = {
         "title": "Página principal",
-        "content": "Bem-vindo a página principal"
+        "content": "Bem-vindo à página principal"
     }
     return render(request, "home_page.html", context)
 
